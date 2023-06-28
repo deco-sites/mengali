@@ -8445,19 +8445,19 @@
         "primary": {
           "type": "string",
           "format": "color",
-          "default": "#003232",
+          "default": "#66AFE9",
           "title": "Primary"
         },
         "secondary": {
           "type": "string",
           "format": "color",
-          "default": "#8C3D3D",
+          "default": "#E11138",
           "title": "Secondary"
         },
         "accent": {
           "type": "string",
           "format": "color",
-          "default": "#00FF7F",
+          "default": "#27AE60",
           "title": "Accent"
         },
         "neutral": {
@@ -8469,7 +8469,7 @@
         "base-100": {
           "type": "string",
           "format": "color",
-          "default": "#FFFFFF",
+          "default": "#000000",
           "title": "Base-100"
         },
         "success": {
