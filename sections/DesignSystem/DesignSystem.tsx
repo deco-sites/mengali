@@ -128,25 +128,25 @@ export interface Colors {
 
   /**
    * @format color
-   * @default #EAFAF2
+   * @default #2c885a
    */
   "success": string;
 
   /**
    * @format color
-   * @default #FFF8E6
+   * @default #917327
    */
   "warning": string;
 
   /**
    * @format color
-   * @default #FFE9E5
+   * @default #9c3a29
    */
   "error": string;
 
   /**
    * @format color
-   * @default #F0F5FF
+   * @default #385eaa
    */
   "info": string;
 }

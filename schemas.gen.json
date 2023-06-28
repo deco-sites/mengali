@@ -8475,25 +8475,25 @@
         "success": {
           "type": "string",
           "format": "color",
-          "default": "#EAFAF2",
+          "default": "#2c885a",
           "title": "Success"
         },
         "warning": {
           "type": "string",
           "format": "color",
-          "default": "#FFF8E6",
+          "default": "#917327",
           "title": "Warning"
         },
         "error": {
           "type": "string",
           "format": "color",
-          "default": "#FFE9E5",
+          "default": "#9c3a29",
           "title": "Error"
         },
         "info": {
           "type": "string",
           "format": "color",
-          "default": "#F0F5FF",
+          "default": "#385eaa",
           "title": "Info"
         }
       },
