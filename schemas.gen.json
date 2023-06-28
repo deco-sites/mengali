@@ -8463,7 +8463,7 @@
         "neutral": {
           "type": "string",
           "format": "color",
-          "default": "#333333",
+          "default": "#1d1d1d",
           "title": "Neutral"
         },
         "base-100": {

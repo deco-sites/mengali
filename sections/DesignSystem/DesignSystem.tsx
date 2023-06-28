@@ -98,31 +98,31 @@ export interface OptionalColors {
 export interface Colors {
   /**
    * @format color
-   * @default #003232
+   * @default #66AFE9
    */
   "primary": string;
 
   /**
    * @format color
-   * @default #8C3D3D
+   * @default #E11138
    */
   "secondary": string;
 
   /**
    * @format color
-   * @default #00FF7F
+   * @default #27AE60
    */
   "accent": string;
 
   /**
    * @format color
-   * @default #333333
+   * @default #1d1d1d
    */
   "neutral": string;
 
   /**
    * @format color
-   * @default #FFFFFF
+   * @default "#000000"
    */
   "base-100": string;
 
