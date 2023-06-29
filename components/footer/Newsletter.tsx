@@ -47,10 +47,14 @@ function Newsletter(
           ? "flex-col gap-4 lg:flex-row lg:w-full lg:justify-between"
           : "flex-col gap-4"
       }`}
-    > 
+    >
       <div class="flex flex-col gap-4 text-[#9A9A9A]">
         {content?.title && (
-          <h3 class={tiled ? "text-2xl lg:text-3xl uppercase italic font-black text-[#FFFFFF]" : "text-lg uppercase italic font-black text-[#FFFFFF]"}>
+          <h3
+            class={tiled
+              ? "text-2xl lg:text-3xl uppercase italic font-black text-[#FFFFFF]"
+              : "text-lg uppercase italic font-black text-[#FFFFFF]"}
+          >
             {content?.title}
           </h3>
         )}

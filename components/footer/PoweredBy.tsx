@@ -9,7 +9,6 @@ export default function PoweredBy() {
         aria-label="powered by https://www.deco.cx"
       >
         <Icon id="Deco" height={20} width={60} strokeWidth={0.01} />
-
       </a>
       <a
         href="https://www.wicomm.com.br/"
