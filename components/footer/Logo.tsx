@@ -20,7 +20,7 @@ export default function Logo({ logo }: Props) {
               height={200}
             />
           </div>
-          <div class="">
+          <div class="text-[#9A9A9A]">
             {logo?.description}
           </div>
         </div>

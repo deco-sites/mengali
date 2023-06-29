@@ -20,7 +20,7 @@ export default function Social(
   return (
     <>
       {content && content.items && content.items.length > 0 && (
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 uppercase font-bold">
           {content.title && <h3 class="text-lg">{content.title}</h3>}
           <ul
             class={`flex gap-4 ${
@@ -35,9 +35,9 @@ export default function Social(
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`${item.label} Logo`}
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center text-[#000000]"
                   >
-                    <span class="block p-1 border rounded-full">
+                    <span class="block p-1 rounded-full bg-[#ffffff]">
                       <Icon
                         width={20}
                         height={20}

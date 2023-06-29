@@ -4,9 +4,9 @@ export default function BackToTop({ content }: { content?: string }) {
   return (
     <>
       {content && (
-        <div class="w-full flex items-center justify-center">
-          <a href="#top" class="btn">
-            {content} <Icon id="ChevronUp" width={24} height={24} />
+        <div class="fixed bottom-[30px] right-[15px]">
+          <a href="#top" class="btn bg-[#ff9601] hover:bg-[#FFC470] text-[#000000]">
+            <Icon id="ChevronUp" width={24} height={24} />
           </a>
         </div>
       )}

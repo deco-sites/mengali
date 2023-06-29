@@ -47,10 +47,10 @@ function Newsletter(
           ? "flex-col gap-4 lg:flex-row lg:w-full lg:justify-between"
           : "flex-col gap-4"
       }`}
-    >
-      <div class="flex flex-col gap-4">
+    > 
+      <div class="flex flex-col gap-4 text-[#9A9A9A]">
         {content?.title && (
-          <h3 class={tiled ? "text-2xl lg:text-3xl" : "text-lg"}>
+          <h3 class={tiled ? "text-2xl lg:text-3xl uppercase italic font-black text-[#FFFFFF]" : "text-lg uppercase italic font-black text-[#FFFFFF]"}>
             {content?.title}
           </h3>
         )}
@@ -64,12 +64,12 @@ function Newsletter(
           <div class="flex gap-3">
             <input
               name="email"
-              class="flex-auto md:flex-none input input-bordered md:w-80 text-base-content"
+              class="flex-auto md:flex-none input input-bordered md:w-80 bg-[#1c1c1e] text-[#9A9A9A]"
               placeholder={content?.form?.placeholder || "Digite seu email"}
             />
             <button
               type="submit"
-              class="btn disabled:loading"
+              class="btn disabled:loading bg-[#FF9601] hover:bg-[#FFC470] text-[#000000]"
               disabled={loading}
             >
               {content?.form?.buttonText || "Inscrever"}
@@ -78,7 +78,7 @@ function Newsletter(
         </form>
         {content?.form?.helpText && (
           <div
-            class="text-sm"
+            class="text-sm text-[#9A9A9A]"
             dangerouslySetInnerHTML={{ __html: content?.form?.helpText }}
           />
         )}

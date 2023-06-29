@@ -7869,6 +7869,11 @@
                   },
                   {
                     "type": "string",
+                    "const": "Wicomm",
+                    "default": "Wicomm"
+                  },
+                  {
+                    "type": "string",
                     "const": "Diners",
                     "default": "Diners"
                   },
@@ -7916,6 +7921,11 @@
                     "type": "string",
                     "const": "Logo",
                     "default": "Logo"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Mengali",
+                    "default": "Mengali"
                   },
                   {
                     "type": "string",
@@ -10222,6 +10232,11 @@
             },
             {
               "type": "string",
+              "const": "Wicomm",
+              "default": "Wicomm"
+            },
+            {
+              "type": "string",
               "const": "Diners",
               "default": "Diners"
             },
@@ -10269,6 +10284,11 @@
               "type": "string",
               "const": "Logo",
               "default": "Logo"
+            },
+            {
+              "type": "string",
+              "const": "Mengali",
+              "default": "Mengali"
             },
             {
               "type": "string",
