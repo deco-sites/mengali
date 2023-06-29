@@ -85,20 +85,21 @@ function Searchbar({
 
   return (
     <div class="flex flex-col p-4 md:py-6 md:px-20">
-      <div class="flex items-center gap-4">
+
+      <div class="flex items-center gap-4 bg-[#1c1c1e]">
         <form
           id="searchbar"
           action={action}
-          class="flex-grow flex gap-3 px-3 py-2 border border-base-200"
+          class="flex-grow flex gap-3 px-3 py-2 border border-base-200 bg-[#1c1c1e]"
         >
           <Button
-            class="btn-ghost"
+            class="btn-ghost bg-[#FF9601] hover:bg-[#FFC470]"
             aria-label="Search"
             htmlFor="searchbar"
             tabIndex={-1}
           >
             <Icon
-              class="text-base-300"
+              class="text-[#000000]"
               id="MagnifyingGlass"
               size={20}
               strokeWidth={0.01}
@@ -107,7 +108,7 @@ function Searchbar({
           <input
             ref={searchInputRef}
             id="search-input"
-            class="flex-grow outline-none placeholder-shown:sibling:hidden"
+            class="flex-grow outline-none placeholder-shown:sibling:hidden bg-[#1c1c1e] text-[#9A9A9A]"
             name={name}
             defaultValue={query}
             onInput={(e) => {
