@@ -12,7 +12,7 @@ function Header(props: Props) {
       {props.title || props.description
         ? (
           <div
-            class={`flex flex-col gap-2 ${
+            class={`flex flex-col gap-2 text-[#1C1C1E] uppercase italic font-bold ${
               props.alignment === "left" ? "text-left" : "text-center"
             }`}
           >
@@ -20,11 +20,6 @@ function Header(props: Props) {
               (
                 <h1
                   class={`text-2xl leading-8 lg:leading-10
-                  ${
-                    props.colorReverse
-                      ? "text-primary-content"
-                      : "text-base-content"
-                  }
                   ${props.fontSize === "Normal" ? "lg:text-3xl" : "lg:text-4xl"}
                 `}
                 >
@@ -35,10 +30,7 @@ function Header(props: Props) {
               (
                 <h2
                   class={`
-                  leading-6 lg:leading-8
-                  ${
-                    props.colorReverse ? "text-primary-content" : "text-neutral"
-                  }
+                  leading-6 lg:leading-8 text-[#9A9A9A] uppercase italic font-medium
                   ${props.fontSize === "Normal" ? "lg:text-xl" : "lg:text-2xl"}
                 `}
                 >
