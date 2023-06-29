@@ -7,9 +7,6 @@
   html {
     font-family: var(--font-family);
   }
-  html, body {
-    background-color: #424242;
-  }
 
   /** Remove default styles from input[type=number] */
   input[type=number]::-webkit-inner-spin-button,
