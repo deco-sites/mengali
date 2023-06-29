@@ -89,7 +89,7 @@ export default function Benefits(
   });
 
   return (
-    <div class="bg-[#3A3A3C]">
+    <>
       {!layout?.variation || layout?.variation === "Simple"
         ? (
           <div class="w-full container px-4 py-8 flex flex-col gap-8 lg:gap-10 lg:py-10 lg:px-0">
@@ -134,6 +134,6 @@ export default function Benefits(
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
