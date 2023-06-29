@@ -9,6 +9,7 @@
   }
   html, body {
     background-color: #FFFFFF;
+    overflow-x: hidden;
   }
 
   /** Remove default styles from input[type=number] */
