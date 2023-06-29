@@ -61,7 +61,7 @@ export default function Benefits(
         <div class="flex-none">
           <Icon
             id={benefit.icon}
-            class={reverse ? "text-base-100" : "text-primary"}
+            class={"text-[#FF9601]"}
             width={36}
             height={36}
             strokeWidth={0.01}
@@ -70,14 +70,14 @@ export default function Benefits(
         </div>
         <div class="flex-auto flex flex-col gap-1 lg:gap-2">
           <div
-            class={`text-base lg:text-xl leading-7 ${
+            class={`text-base lg:text-xl leading-7 text-[#FFFFFF]${
               reverse ? "text-base-100" : "text-base-content"
             }`}
           >
             {benefit.label}
           </div>
           <p
-            class={`text-sm leading-5 ${
+            class={`text-sm leading-5 text-[#9A9A9A]${
               reverse ? "text-base-100" : "text-neutral"
             } ${benefitLayout == "piledup" ? "hidden lg:block" : ""}`}
           >
